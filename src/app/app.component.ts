@@ -1,21 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
     selector: 'mw-app',
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css']
+    styleUrls: ['./app.component.css'],
 })
 
-export class AppComponent {
-    firstMediaItem = {
-        id: 1,
-        name: 'Firebug',
-        medium: 'Series',
-        category: 'Science Fiction',
-        year: 2020,
-        watchedOn: 123869994007,
-        isFavorite: false
-    }
-    
-    onMediaItemDelete(mediaItem){}
-}
+export class AppComponent {}
